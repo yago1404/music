@@ -1,0 +1,6 @@
+.cta {
+    padding: 16px 24px;
+    border-radius: 30px;
+    background-image: linear-gradient(to right, #5808A7, #8111EF);
+    cursor: pointer;
+}
