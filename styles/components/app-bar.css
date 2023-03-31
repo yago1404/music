@@ -33,3 +33,7 @@ header ul.menu-list li{
     display: inline-block;
     margin: 0 11px;
 }
+
+header .nav-item {
+    cursor: pointer;
+}

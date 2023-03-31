@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>MusIc</title>
+    <script src="scripts/app-bar.js"></script>
     <link rel="stylesheet" href="styles/main-style.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/components/app-bar.css">
@@ -15,10 +16,11 @@
     </div>
     <nav>
         <ul class="menu-list">
-            <li><a href="">Sobre Nós</a></li>
-            <li><a href="">Contatos</a></li>
-            <li><a href="">Agenda</a></li>
-            <li><a href="">Membros</a></li>
+            <li id="hello-link" class="nav-item" onclick="clickNavItem('hello-link')">Olá</li>
+            <li id="about-us-link" class="nav-item" onclick="clickNavItem('about-us-link')">Sobre Nós</li>
+            <li id="contact-link" class="nav-item" onclick="clickNavItem('contact-link')">Contatos</li>
+            <li id="calendar-link" class="nav-item" onclick="clickNavItem('calendar-link')">Agenda</li>
+            <li id="members-link" class="nav-item" onclick="clickNavItem('members-link')">Membros</li>
         </ul>
     </nav>
     <div class="cta">
@@ -36,6 +38,10 @@
             <img src="assets/images/mail.png" alt="email" class="social-media-icon">
         </div>
     </article>
+    <article class="about-us">
+
+    </article>
 </section>
+<script>initAppBar()</script>
 </body>
 </html>
