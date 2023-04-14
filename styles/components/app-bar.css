@@ -40,5 +40,8 @@ header ul.menu-list li{
 
 header .nav-item {
     cursor: pointer;
+}
+
+header .nav-item:hover {
     text-shadow: 6px 6px 8px rgba(255, 255, 255, 0.4), -6px 6px 8px rgba(255, 255, 255, 0.4), -6px -6px 8px rgba(255, 255, 255, 0.4), 6px -6px 8px rgba(255, 255, 255, 0.4);
 }
