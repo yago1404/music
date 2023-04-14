@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MusIc</title>
+    <script src="scripts/app-bar.js"></script>
+    <link rel="stylesheet" href="styles/main-style.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/components/app-bar.css">
+    <link rel="stylesheet" href="styles/components/cta.css">
+    <link rel="stylesheet" href="styles/galeria.css">
+</head>
+<body>
+    <header>
+        <div class="app-icon">
+            <img src="assets/images/logo.png" alt="Music">
+        </div>
+        <nav>
+            <ul class="menu-list">
+                <li id="hello-link" class="nav-item" onclick="clickNavItem('hello-link')">Olá</li>
+                <li id="about-us-link" class="nav-item" onclick="clickNavItem('about-us-link')">Sobre Nós</li>
+                <li id="contact-link" class="nav-item" onclick="clickNavItem('contact-link')">Contatos</li>
+                <li id="calendar-link" class="nav-item" onclick="clickNavItem('calendar-link')">Agenda</li>
+                <li id="members-link" class="nav-item" onclick="clickNavItem('members-link')">Membros</li>
+                <li id="galeria-link" class="nav-item" onclick="clickNavItem('galeria-link')">Galeria</li>
+            </ul>
+        </nav>
+        <div class="cta">
+            <span>Seja um membro</span>
+        </div>
+    
+    </header>
+    <section class="presentation">
+            <div class="galeria">
+                <div class="container">
+                    <img src = "assets/images/galera.png"/>
+                    <h1>Galeria</h1>
+                    <div class="grid-container">
+                    </div>
+                </div>
+            </div>
+            
+    
+    </section>
+    <script>initAppBar('galeria-link')</script>
+    <script src="scripts/galeria.js"></script>
+</body>
+</html>

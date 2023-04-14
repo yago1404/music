@@ -27,13 +27,18 @@ header nav {
 
 header ul.menu-list {
     list-style: none;
+    display: flex;
+    flex-direction: row;
 }
 
 header ul.menu-list li{
-    display: inline-block;
-    margin: 0 11px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 15px;
 }
 
 header .nav-item {
     cursor: pointer;
+    text-shadow: 6px 6px 8px rgba(255, 255, 255, 0.4), -6px 6px 8px rgba(255, 255, 255, 0.4), -6px -6px 8px rgba(255, 255, 255, 0.4), 6px -6px 8px rgba(255, 255, 255, 0.4);
 }
