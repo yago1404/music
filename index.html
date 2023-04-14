@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>MusIc</title>
     <script src="scripts/app-bar.js"></script>
+    <script src="scripts/social-media.js"></script>
     <link rel="stylesheet" href="styles/main-style.css">
     <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/components/app-bar.css">
@@ -21,6 +22,7 @@
             <li id="contact-link" class="nav-item" onclick="clickNavItem('contact-link')">Contatos</li>
             <li id="calendar-link" class="nav-item" onclick="clickNavItem('calendar-link')">Agenda</li>
             <li id="members-link" class="nav-item" onclick="clickNavItem('members-link')">Membros</li>
+            <li id="galeria-link" class="nav-item" onclick="clickNavItem('galeria-link')">Galeria</li>
         </ul>
     </nav>
     <div class="cta">
@@ -34,14 +36,14 @@
         <img src="assets/images/logo.png" alt="Music">
         <span id="pcep">Projeto musical dos alunos de Ciência e Engenharia da computação</span>
         <div class="social-media">
-            <img src="assets/images/instagram.png" alt="instagram" class="social-media-icon">
-            <img src="assets/images/mail.png" alt="email" class="social-media-icon">
+            <img id="insta" src="assets/images/instagram.png" alt="instagram" class="social-media-icon" onclick="clickSocialMedia('insta')">
+            <img id="email" src="assets/images/mail.png" alt="email" class="social-media-icon" onclick="clickSocialMedia('email')">
         </div>
     </article>
     <article class="about-us">
 
     </article>
 </section>
-<script>initAppBar()</script>
+<script>initAppBar('hello-link')</script>
 </body>
 </html>
