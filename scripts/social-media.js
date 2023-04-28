@@ -2,7 +2,7 @@ const clickSocialMedia = function(itemId){
     
     switch (itemId) {
         case 'insta':
-            window.location.href = 'https://www.instagram.com/mus.ic.ufal/?igshid=NTdlMDg3MTY%3D';
+            window.location.href = 'https://www.instagram.com/mus.ic.ufal/';
             break;
         case 'email':
             break;
