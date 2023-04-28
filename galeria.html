@@ -6,12 +6,12 @@
     <title>MusIc</title>
     <script src="scripts/app-bar.js"></script>
     <link rel="stylesheet" href="styles/main-style.css">
-    <link rel="stylesheet" href="styles/home.css">
     <link rel="stylesheet" href="styles/components/app-bar.css">
     <link rel="stylesheet" href="styles/components/cta.css">
     <link rel="stylesheet" href="styles/galeria.css">
 </head>
 <body>
+    <!--Header-->
     <header>
         <div class="app-icon">
             <img src="assets/images/logo.png" alt="Music">
@@ -31,19 +31,16 @@
         </div>
     
     </header>
-    <section class="presentation">
-            <div class="galeria">
-                <div class="container">
-                    <img src = "assets/images/galera.png"/>
-                    <h1>Galeria</h1>
-                    <div class="grid-container">
-                    </div>
-                </div>
-            </div>
-            
-    
+    <!--Body-->
+    <section class="container">
+        <div class="gallery">
+            <h1>Galeria</h1>
+            <div class="gallery-items"></div>
+            <div class="pagination"></div>
+          </div>
     </section>
-    <script>initAppBar('galeria-link')</script>
+    <!--Scripts-->
     <script src="scripts/galeria.js"></script>
+    <script>initAppBar('galeria-link')</script>
 </body>
 </html>

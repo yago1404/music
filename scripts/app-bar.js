@@ -1,3 +1,9 @@
+const hash = {
+    "hello-link": "index.html",
+    "galeria-link": "galeria.html",
+    "#": "#"
+  };
+
 const initAppBar = function(itemId) {
     item =  document.getElementById(itemId);
     item.style.padding = "4px 10px";
@@ -5,18 +11,8 @@ const initAppBar = function(itemId) {
 }
 
  const clickNavItem = function(itemId) {
-     switch (itemId) {
-        case 'hello-link':
-            window.location.href = 'index.html';
-            break;
-
-         case 'galeria-link':
-             window.location.href = 'galeria.html';
-             break;
-         case 'email':
-             break;
-
-         default:
-             break;
-     }
+    if(hash[itemId] === undefined){
+        itemId = "#";
+    }
+    window.location.href = hash[itemId];
 }

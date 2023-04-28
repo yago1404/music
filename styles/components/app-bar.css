@@ -38,10 +38,16 @@ header ul.menu-list li{
     margin: 0 15px;
 }
 
-header .nav-item {
+header .nav-item:hover {
     cursor: pointer;
+    animation: scale 0.1s ease forwards;
 }
 
-header .nav-item:hover {
-    text-shadow: 6px 6px 8px rgba(255, 255, 255, 0.4), -6px 6px 8px rgba(255, 255, 255, 0.4), -6px -6px 8px rgba(255, 255, 255, 0.4), 6px -6px 8px rgba(255, 255, 255, 0.4);
+@keyframes scale {
+    from{
+        font-size: 1em;
+    }
+    to{
+        font-size: 1.2em;
+    }
 }
