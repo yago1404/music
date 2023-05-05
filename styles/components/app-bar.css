@@ -36,6 +36,8 @@ header ul.menu-list li{
     justify-content: center;
     align-items: center;
     margin: 0 15px;
+    text-decoration: none;
+    cursor: none;
 }
 
 header .nav-item:hover {
